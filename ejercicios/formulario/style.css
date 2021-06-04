@@ -1,0 +1,13 @@
+body{
+    background: greenyellow;
+    background: -webkit-linear-gradient(to right white, aquamarine); 
+    background: linear-gradient(to right white, aquamarine); 
+}
+
+div{
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    padding-top: 10px
+}
+

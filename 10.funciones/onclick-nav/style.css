@@ -1,0 +1,87 @@
+/* .nav-enlace{
+    background: yellow;
+    color: blue;
+    padding: 10px 30 px;
+    text-decoration: none;
+}
+
+.nav-enlace:hover{
+    background: gold;
+}
+
+nav{
+    background: skyblue;
+    padding: 10px; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-boton{
+    background: grey; 
+    color: white; 
+    padding: 10px;
+    border: 2px solid white;
+    display: none;
+}
+
+@media (max-width:600px){
+    nav{
+        background: darkslateblue;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0;
+    }
+    .nav-boton{
+        display: none;
+    }
+
+    .desaparecer{
+        display: none; 
+    }
+} */
+
+.nav-enlace{
+    /*display: inline-block; convierte elementos de bloque en elementos de linea en bloque*/
+    background: #546460;
+    color: #ffffff;
+    padding: 10px 30px;
+    text-decoration:none; /*quita la sublinea de la etiqueta <a>*/
+}
+
+.nav-enlace:hover{
+    background:#fa8072;
+}
+
+nav{
+    background: #0a000a;
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.nav-boton{
+    background:  #546460;
+    color: #ffffff;
+    padding: 10px;
+    border: 2px solid #fff;
+    display: none; /*Con esto desaparece el boton llamado menú cuando el tamaño es mayor de 600px*/
+}
+
+/*Con esta media query me sirve para el resposive. le estoy indicando que cuando la pantalla tenga un  maximo de 600px  le cambie el color de fondo a rojo*/
+@media(max-width: 600px){
+    nav{
+        background:salmon;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+
+    .desaparecer{
+        display: none; /*con esto consigo que todos los botones excepto el que se llama menú desaparezcan cuando es menor de  600*/
+    }
+}
