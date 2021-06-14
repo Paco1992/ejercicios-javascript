@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #24c6dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #514a9d,
+    #24c6dc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #514a9d,
+    #24c6dc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav{
+    background-color: black;
+    padding: 20px;
+    text-align: right;
+    color: white;
+}
+
+li{
+    display: inline;
+    border-right: 1px solid #bbb;
+  }
+  li a:hover{
+    color: #DDDDDD;
+    opacity: 0.5;
+  }
+  a{
+    color: #DDDDDD;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+  }
+  .hero{
+    background-image: url("fondo3.png");
+    opacity:0.7;
+  }
+  h1{ 
+    text-align: center;
+    color: #DBE0E2;
+    font-size: 3.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+img{
+    width: 70px;
+    margin-left: 20px;
+    margin-bottom: 0.5%;
+    opacity: 0.5;
+}
+
+#padre{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: yellow;
+    opacity: 0.5;
+}
+
+.hijo{
+    color: aquamarine;
+}
+
+.tercer{
+    background-color: white;
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    opacity: 0.5;
+
+}
+
+footer{
+    background-color: darkcyan;
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: center;
+    color: red;
+}
+
+.btn{
+    color: red;
+}
+
+/* Esto último que te estoy contando del color del botón es para pantallas del tamaño entre 300 y 720px.*/
+
+@media (min-width: 300px) and (max-width: 720px){
+    body, .container{
+      width:100%;
+      /* background-image: url("fondo3.png"); */
+      background-color:#a12d50;
+      opacity:0.7;
+    }
+
+
+
+}
+
+/*li{
+display: inline;
+border-right: 1px solid grey;
+}
+
+li a:hover{
+    color: white;
+    opacity: 0.5;
+}
+
+*{color: white;
+text-decoration: none;
+padding: 14px 16px;
+text-align: center;}
+
+.hero{
+    background-image: url("fondo3.png");
+    opacity: 0.7;
+}*/
+
